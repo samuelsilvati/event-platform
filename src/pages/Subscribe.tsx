@@ -2,7 +2,7 @@ import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
-import ReactMockup from "/src/assets/code-mockup.png";
+import ReactMockup from "../assets/code-mockup.png";
 
 
 export function Subscribe() {
